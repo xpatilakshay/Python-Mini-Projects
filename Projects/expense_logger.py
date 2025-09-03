@@ -15,7 +15,9 @@ Handle missing file errors with try/except.
 
 import csv
 
+#csv_file = input("Enter the csv file name : ")
 csv_file = "expenses.csv"
+#json_file = input("Enter the json file name")
 json_file = "expenses.json"
 
 def add_expense(date,category, amount):
